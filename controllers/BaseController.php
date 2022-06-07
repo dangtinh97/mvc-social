@@ -2,8 +2,6 @@
 
 abstract class BaseController
 {
-    const BASE_VIEW = '';
-    abstract function index();
     public function view(string $view,array $data)
     {
         $data['view'] = $view;
