@@ -20,7 +20,6 @@ if(isset($data['title_page'])){
     $titlePage = $data['title_page'];
     echo '<script>document.getElementsByTagName("title")[0].innerText="'.$titlePage.'"</script>';
 }
-
 ?>
 </body>
 </html>
